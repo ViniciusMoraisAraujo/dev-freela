@@ -1,0 +1,200 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/vinicius-araujo/developer/DevFreela/DevFreela.UnitTests/DevFreela.UnitTests.csproj": {}
+  },
+  "projects": {
+    "/home/vinicius-araujo/developer/DevFreela/DevFreela.Application/DevFreela.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vinicius-araujo/developer/DevFreela/DevFreela.Application/DevFreela.Application.csproj",
+        "projectName": "DevFreela.Application",
+        "projectPath": "/home/vinicius-araujo/developer/DevFreela/DevFreela.Application/DevFreela.Application.csproj",
+        "packagesPath": "/home/vinicius-araujo/.nuget/packages/",
+        "outputPath": "/home/vinicius-araujo/developer/DevFreela/DevFreela.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vinicius-araujo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/vinicius-araujo/developer/DevFreela/DevFreela.Core/DevFreela.Core.csproj": {
+                "projectPath": "/home/vinicius-araujo/developer/DevFreela/DevFreela.Core/DevFreela.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.122/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/vinicius-araujo/developer/DevFreela/DevFreela.Core/DevFreela.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vinicius-araujo/developer/DevFreela/DevFreela.Core/DevFreela.Core.csproj",
+        "projectName": "DevFreela.Core",
+        "projectPath": "/home/vinicius-araujo/developer/DevFreela/DevFreela.Core/DevFreela.Core.csproj",
+        "packagesPath": "/home/vinicius-araujo/.nuget/packages/",
+        "outputPath": "/home/vinicius-araujo/developer/DevFreela/DevFreela.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vinicius-araujo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.122/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/vinicius-araujo/developer/DevFreela/DevFreela.UnitTests/DevFreela.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vinicius-araujo/developer/DevFreela/DevFreela.UnitTests/DevFreela.UnitTests.csproj",
+        "projectName": "DevFreela.UnitTests",
+        "projectPath": "/home/vinicius-araujo/developer/DevFreela/DevFreela.UnitTests/DevFreela.UnitTests.csproj",
+        "packagesPath": "/home/vinicius-araujo/.nuget/packages/",
+        "outputPath": "/home/vinicius-araujo/developer/DevFreela/DevFreela.UnitTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vinicius-araujo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/vinicius-araujo/developer/DevFreela/DevFreela.Application/DevFreela.Application.csproj": {
+                "projectPath": "/home/vinicius-araujo/developer/DevFreela/DevFreela.Application/DevFreela.Application.csproj"
+              },
+              "/home/vinicius-araujo/developer/DevFreela/DevFreela.Core/DevFreela.Core.csproj": {
+                "projectPath": "/home/vinicius-araujo/developer/DevFreela/DevFreela.Core/DevFreela.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.122/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

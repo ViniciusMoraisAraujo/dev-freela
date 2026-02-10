@@ -1,0 +1,49 @@
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+# Arquivos de log e cache do .NET
+*.log
+*.swp
+.net/
+# Publicação e Artefatos
+publish/
+/nupkg/
+# Arquivos gerados por testes (code coverage)
+TestResults/
+*.sequenced
+
+# Ignora configurações da IDE que são específicas do usuário
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/httpRequests/
+.idea/**/dataSources/
+.idea/**/dataSources.local.xml
+# Rider auto-generates .iml files
+*.iml
+# Arquivos de cache do ReSharper
+_ReSharper*/
+
+# Configurações locais (Segredos e Variáveis de Ambiente)
+# IMPORTANTE: Nunca envie segredos para o Git
+appsettings.Development.json
+appsettings.Local.json
+*.user
+*.suo
+*.userprefs
+# Pasta de ferramentas locais do .NET
+.config/dotnet-tools.json
+
+.DS_Store
+.fuse_hidden*
+.directory
+.Trash-*
+*~
+
+# Se você usar Docker
+.dockerignore
+# Se usar Node.js para algum frontend acoplado
+node_modules/
+dist/

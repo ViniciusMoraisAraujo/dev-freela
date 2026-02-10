@@ -1,0 +1,15 @@
+/home/vinicius-araujo/developer/DevFreela/DevFreela.Application/bin/Debug/net8.0/DevFreela.Application.deps.json
+/home/vinicius-araujo/developer/DevFreela/DevFreela.Application/bin/Debug/net8.0/DevFreela.Application.dll
+/home/vinicius-araujo/developer/DevFreela/DevFreela.Application/bin/Debug/net8.0/DevFreela.Application.pdb
+/home/vinicius-araujo/developer/DevFreela/DevFreela.Application/bin/Debug/net8.0/DevFreela.Core.dll
+/home/vinicius-araujo/developer/DevFreela/DevFreela.Application/bin/Debug/net8.0/DevFreela.Core.pdb
+/home/vinicius-araujo/developer/DevFreela/DevFreela.Application/obj/Debug/net8.0/DevFreela.Application.csproj.AssemblyReference.cache
+/home/vinicius-araujo/developer/DevFreela/DevFreela.Application/obj/Debug/net8.0/DevFreela.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/vinicius-araujo/developer/DevFreela/DevFreela.Application/obj/Debug/net8.0/DevFreela.Application.AssemblyInfoInputs.cache
+/home/vinicius-araujo/developer/DevFreela/DevFreela.Application/obj/Debug/net8.0/DevFreela.Application.AssemblyInfo.cs
+/home/vinicius-araujo/developer/DevFreela/DevFreela.Application/obj/Debug/net8.0/DevFreela.Application.csproj.CoreCompileInputs.cache
+/home/vinicius-araujo/developer/DevFreela/DevFreela.Application/obj/Debug/net8.0/DevFreela.Application.csproj.CopyComplete
+/home/vinicius-araujo/developer/DevFreela/DevFreela.Application/obj/Debug/net8.0/DevFreela.Application.dll
+/home/vinicius-araujo/developer/DevFreela/DevFreela.Application/obj/Debug/net8.0/refint/DevFreela.Application.dll
+/home/vinicius-araujo/developer/DevFreela/DevFreela.Application/obj/Debug/net8.0/DevFreela.Application.pdb
+/home/vinicius-araujo/developer/DevFreela/DevFreela.Application/obj/Debug/net8.0/ref/DevFreela.Application.dll
