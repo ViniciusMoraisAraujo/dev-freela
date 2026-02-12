@@ -1,7 +1,13 @@
 namespace DevFreela.Core;
 
-public class Skill
+public class Skill : BaseEntity
 {
-    public int Description { get; private set; }
-    public DateTime CreatedAt { get; set; }
+    public string Description { get; private set; }
+    public DateTime CreatedAt { get; private set; }
+
+    public Skill(string description)
+    {
+        Description = description;
+        CreatedAt = DateTime.UtcNow;
+    }
 }
