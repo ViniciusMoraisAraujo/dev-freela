@@ -47,3 +47,5 @@ appsettings.Local.json
 # Se usar Node.js para algum frontend acoplado
 node_modules/
 dist/
+
+.idea
