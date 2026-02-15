@@ -18,7 +18,7 @@ public class ProjectService : IProjectService
     {
         var projects = _dbContext.Projects;
         var projectViewModels = projects
-            .Select(project => new ProjectViewModel(project.Title, project.CreatedAt))
+            .Select(project => new ProjectViewModel(project.Id ,project.Title, project.CreatedAt))
             .ToList();
         
         return projectViewModels;

@@ -1,3 +1,3 @@
 ﻿namespace DevFreela.Application.ViewModels;
 
-public record ProjectViewModel(string title, DateTime createdAt);
+public record ProjectViewModel(int id, string title, DateTime createdAt);
