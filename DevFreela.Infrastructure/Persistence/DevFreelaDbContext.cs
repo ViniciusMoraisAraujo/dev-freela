@@ -7,6 +7,7 @@ public class DevFreelaDbContext
     public List<Project> Projects { get; set; }
     public List<User> Users { get; set; }
     public List<Skill> Skills { get; set; }
+    public List<ProjectComment> ProjectComments { get; set; }
 
     public DevFreelaDbContext()
     {
@@ -29,5 +30,6 @@ public class DevFreelaDbContext
             new Skill("Skill 2"),
             new Skill("Skill 3")
         };
+        
     }
 }

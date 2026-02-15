@@ -33,4 +33,37 @@ public class Project : BaseEntity
         TotalCost = totalCost;
         CreatedAt = DateTime.UtcNow;
     }
+    
+    public void Cancel()
+    {
+        if (Status == ProjectStatusEnum.InProgress || Status == ProjectStatusEnum.Created)
+        {
+            Status = ProjectStatusEnum.Cancelled;
+        }
+    }
+
+    public void Finish()
+    {
+        if (Status == ProjectStatusEnum.InProgress)
+        {
+            Status = ProjectStatusEnum.Completed;
+            FinishedAt = DateTime.UtcNow;
+        }
+    }
+    
+    public void  Start()
+    {
+        if (Status == ProjectStatusEnum.Created)
+        {
+            Status = ProjectStatusEnum.InProgress;
+            StartedAt = DateTime.UtcNow;
+        }
+    }
+
+    public void Update(string title, string description, decimal totalCost)
+    {
+        Title = title;
+        Description = description;
+        TotalCost = totalCost;
+    }
 }
