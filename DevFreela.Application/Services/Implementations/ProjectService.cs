@@ -27,6 +27,10 @@ public class ProjectService : IProjectService
     public ProjectDetailsViewModel GetById(int id)
     {
         var project = _dbContext.Projects.FirstOrDefault(p => p.Id == id);
+        
+        if(project == null)
+            return null;
+        
         var projectDetailsViewModel = new ProjectDetailsViewModel(
             project.Id,
             project.Title,
@@ -39,7 +43,7 @@ public class ProjectService : IProjectService
         return projectDetailsViewModel;
     }
 
-    public int Create(NewProjectInputModel projectInputModel)
+    public int Create(CreateProjectInputModel projectInputModel)
     {
         var project = new Project(
             projectInputModel.title,
@@ -52,17 +56,23 @@ public class ProjectService : IProjectService
         return project.Id;
     }
 
-    public void Update(UpdateProjectInputModel updateProjectInputModel)
+    public bool Update(UpdateProjectInputModel updateProjectInputModel)
     {
         var project = _dbContext.Projects.FirstOrDefault(p => p.Id == updateProjectInputModel.id);
-        project.Update(updateProjectInputModel.title, updateProjectInputModel.description, updateProjectInputModel.totalCost);
+        if(project == null)
+            return false;
         
+        project.Update(updateProjectInputModel.title, updateProjectInputModel.description, updateProjectInputModel.totalCost);
+        return true;
     }   
 
-    public void Delete(int id)
+    public bool Delete(int id)
     {
         var project = _dbContext.Projects.FirstOrDefault(p => p.Id == id);
+        if (project == null)  return false;
+        
         project.Cancel();
+        return true;
     }
 
     public void Start(int id)
