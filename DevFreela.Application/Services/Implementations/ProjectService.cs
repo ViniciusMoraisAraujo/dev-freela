@@ -75,16 +75,22 @@ public class ProjectService : IProjectService
         return true;
     }
 
-    public void Start(int id)
+    public bool Start(int id)
     {
         var project = _dbContext.Projects.FirstOrDefault(p => p.Id == id);
+        if (project == null) return false;
+        
         project.Start();
+        return true;
     }
 
-    public void Finish(int id)
+    public bool Finish(int id)
     {
         var project = _dbContext.Projects.FirstOrDefault(p => p.Id == id);
+        if (project == null) return false;
+        
         project.Finish();
+        return true;
     }
 
     public void CreateComment(CreateCommentInputModel createCommentInputModel)

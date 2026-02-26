@@ -10,8 +10,8 @@ public interface IProjectService
     int Create(CreateProjectInputModel projectInputModel);
     bool Update(UpdateProjectInputModel  updateProjectInputModel);
     bool Delete(int id);
-    void Start(int id);
-    void Finish(int id);
+    bool Start(int id);
+    bool Finish(int id);
     void CreateComment(CreateCommentInputModel createCommentInputModel);
     
 }

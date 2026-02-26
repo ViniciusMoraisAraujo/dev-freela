@@ -51,4 +51,30 @@ public class ProjectsController(IProjectService projectService) : ControllerBase
         
         return NoContent();
     }
+
+    [HttpPost("{id}/comments")]
+    public IActionResult PostComment(int id, [FromBody] CreateCommentInputModel comment)
+    {
+        _projectService.CreateComment(comment);
+        
+        return CreatedAtAction(nameof(GetById), new { Id = id });
+    }
+
+    [HttpPut("{id}/start")]
+    public IActionResult Start(int id)
+    {
+        var project = _projectService.Start(id);
+        if (!project) return NotFound();
+        
+        return NoContent();
+    }
+
+    [HttpPut("{id}/finish")]
+    public IActionResult Finish(int id)
+    {
+        var project = _projectService.Finish(id);
+        if (!project) return NotFound();
+        
+        return NoContent();
+    }
 }
